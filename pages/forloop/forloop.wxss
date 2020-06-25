@@ -1,0 +1,14 @@
+/* pages/forloop/forloop.wxss */
+
+.row{
+  display: flex;
+
+  justify-content: flex-start;
+  font-size: 10px;
+
+
+}
+
+.row .col{
+  width: 40px;
+}

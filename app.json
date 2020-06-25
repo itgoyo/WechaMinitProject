@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/forloop/forloop",
+    "pages/course/course",
+    "pages/weibo/weibo",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "浮生甲第ITGOYO",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#CCC",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "position": "bottom",
+    "borderStyle": "white",
+    "color": "#8a8a8a",
+    "selectedColor": "#1AAD16",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "微信",
+        "iconPath": "images/tarbar/tarbar1.png",
+        "selectedIconPath": "images/tarbar/tarbar1_select.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "通讯录",
+        "iconPath": "images/tarbar/tarbar2.png",
+        "selectedIconPath": "images/tarbar/tarbar2_select.png"
+      },
+      {
+        "pagePath": "pages/weibo/weibo",
+        "text": "发现",
+        "iconPath": "images/tarbar/tarbar3.png",
+        "selectedIconPath": "images/tarbar/tarbar3_select.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我",
+        "iconPath": "images/tarbar/tarbar4.png",
+        "selectedIconPath": "images/tarbar/tarbar4_select.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,27 @@
+<!--pages/forloop/forloop.wxml-->
+<text>pages/forloop/forloop.wxml</text>
+<view wx:for="{{['a','b','c','d']}}" wx:key="key"> 
+{{item}}
+</view>
+
+<view wx:for="{{books}}" wx:key="key" wx:for-item="book" wx:for-index="idx">
+
+{{book}}/{{idx}}
+</view>
+
+<view class='row' wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item ="row">
+
+  <view class='col' wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="col" wx:if="{{col<=row}}">
+
+{{col}}*{{row}}={{col*row}}
+
+
+  </view>
+
+</view>
+
+<view wx:for="{{lines}}" wx:key="name">
+<switch>{{item.name}}</switch> 
+</view>
+
+<button bindtap="tapEvent">更新</button>
